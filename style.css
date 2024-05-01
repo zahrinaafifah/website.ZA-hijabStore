@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* header start */
+
+header {
+    /* background-image: url(./image/WhatsApp\ Image\ 2024-04-29\ at\ 22.38.41.jpeg); */
+    background-color: #864242;
+    background-size: cover;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-nav button {
+    background-color: #AC99A2;
+    border: 1px grey solid;
+    border-radius: 4px;
+}
+
+.btn-nav a {
+    margin-right: 10px;
+}
+
+.navbar, img {
+    margin-top: 50px;
+}
+
+.desc {
+    padding-top: 30px;
+    padding: 0 300px 0 300px;
+}
+
+nav img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+header a, .desc {
+    color: antiquewhite;
+    text-align: center;
+}
+.btn-nav {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    color: black;
+}
+
+.btn-nav button a{
+    color: black;
+}
+
+/* header end */
+
+
+/* main pages start*/
+
+.main-pages {
+    background-color: #a4b48c;
+    display: flex;
+}
+
+.main-pages img {
+    margin-top: -1px;
+    margin-bottom: -3px;
+    width: 450px;
+    height: 250px;
+}
+
+.main-pages .desc-pages {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 25px;
+    color: white;
+}
+
+button a {
+    color: black;
+}
+
+/* main pages end  */
+
+
+/* main produk start */
+
+.main-produk {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.img-produk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
+    padding: 10px 250px 10px 250px;
+}
+
+.img-produk .teh-merah, .teh-hitam, .teh-olong, .teh-putih, .teh-hijau {
+    flex: 20%;
+}
+
+.img-produk .teh-merah img, .teh-hitam img, .teh-olong img, .teh-putih img, .teh-hijau img {
+    width: 120px;
+    height: 130px;
+    /* border-radius: 50%; */
+    /* border: 1px solid black; */
+}
+
+/* main produk end */
+
+
+/* main shop start */
+
+.main-shop {
+    background-color: #AC99A2;
+    display: flex;
+}
+.main-shop .img-shop img {
+    width: 450px;
+    height: 350px;
+    margin-top: 1px;
+    margin-bottom: -2px;
+}
+
+.main-shop .desc-shop {
+    color: white;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-right: 150px;
+}
+
+.main-shop .desc-shop button {
+    background-color: #fff;
+    border: 1px grey solid;
+    border-radius: 4px;
+}
+
+.main-shop .desc-shop a {
+    margin-right: 10px;
+}
+
+/* main shop end */
+
+
+/* main blog start */
+
+.main-blog {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-blog img {
+    width: 250px;
+    height: 150px;
+    padding-left: 50px;
+}
+
+.img-blog li {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.img-blog p {
+    padding-left: 50px;
+}
+
+/* .teh1 p, .teh2 p, .teh3 p {
+    padding-left: 150px;
+    padding-bottom: 150px;
+} */
+
+/* main blog end */
+
+/* main blog2 start */
+
+.main-blog2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.img-blog2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-blog2 img {
+    width: 250px;
+    height: 150px;
+    padding-left: 50px;
+}
+
+.img-blog2 li {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.img-blog2 p {
+    padding-left: 50px;
+}
+
+/* .teh1 p, .teh2 p, .teh3 p {
+    padding-left: 150px;
+    padding-bottom: 150px;
+} */
+
+/* main blog2 end */
+
+
+/* main contact start */
+
+.main-contact {
+    background-color: #AC99A2;
+    display: flex;
+}
+
+.img-contact img {
+    width: 450px;
+    height: 250px;
+    margin-top: -1px;
+    margin-bottom: -3px;
+}
+
+.desc-contact {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-contact {
+    margin: 5px;
+}
+
+.desc-contact input {
+    border-radius: 3px;
+    border: 1px black solid;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.desc-contact button {
+    background-color: #fff;
+    border: 1px grey solid;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* main contact end */
+
+/* footer start */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cr p {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.img img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* footer end */
